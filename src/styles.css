@@ -1,10 +1,4 @@
 body {
-  background-image: url('/background.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-body {
   background: url('/background.jpg') no-repeat center center fixed;
   background-size: cover;
   background-color: #0d0d0d;
@@ -13,40 +7,49 @@ body {
   padding: 40px;
   line-height: 1.6;
 }
+
 .container {
   max-width: 800px;
   margin: auto;
 }
+
 h1 {
   font-size: 2em;
   text-align: center;
   margin-bottom: 0.5em;
 }
+
 .subtitle {
   text-align: center;
   font-style: italic;
   color: #bbbbbb;
 }
+
 h2 {
   margin-top: 2em;
   color: #e6b800;
 }
+
 ul {
   list-style-type: square;
   padding-left: 20px;
 }
+
 a {
   color: #70cfff;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 footer {
   margin-top: 3em;
   font-style: italic;
   text-align: center;
 }
+
 .register {
   background-color: #1a1a1a;
   border: 1px solid #ffd700;
@@ -56,7 +59,9 @@ footer {
   border-radius: 12px;
   text-align: center;
 }
-.register input, .register button {
+
+.register input,
+.register button {
   width: 90%;
   padding: 1rem;
   margin-top: 1rem;
@@ -64,30 +69,39 @@ footer {
   border-radius: 8px;
   font-size: 1rem;
 }
+
 .register input {
   background-color: #2a2a2a;
   color: #fff;
 }
+
 .register button {
   background-color: #ffd700;
   color: #000;
   cursor: pointer;
 }
+
 .register button:hover {
   background-color: #ffcc00;
 }
+
 .register-message {
   margin-top: 1rem;
   color: #ccc;
 }
-body {
-  background-image: url('/background.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  color: #f2f2f2;
-  font-family: 'Georgia', serif;
-  padding: 40px;
-  line-height: 1.6;
+
+.guard-response {
+  margin-top: 1rem;
+  color: #70cfff;
+}
+
+.message-guard textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #2a2a2a;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 8px;
+  resize: vertical;
 }
