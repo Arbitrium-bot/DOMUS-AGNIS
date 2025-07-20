@@ -1,21 +1,17 @@
+
 body {
   background: url('/background.jpg') no-repeat center center fixed;
   background-size: cover;
+  background-color: #0d0d0d;
   color: #f2f2f2;
   font-family: 'Georgia', serif;
   padding: 40px;
   line-height: 1.6;
-  backdrop-filter: brightness(0.85);
 }
-
 .container {
   max-width: 800px;
   margin: auto;
-  background: rgba(0, 0, 0, 0.6);
-  padding: 2rem;
-  border-radius: 16px;
 }
-
 h1 {
   font-size: 2em;
   text-align: center;
@@ -46,7 +42,7 @@ footer {
   font-style: italic;
   text-align: center;
 }
-.register, .message-guard {
+.register {
   background-color: #1a1a1a;
   border: 1px solid #ffd700;
   padding: 1.5rem;
@@ -55,7 +51,7 @@ footer {
   border-radius: 12px;
   text-align: center;
 }
-.register input, .register button, .message-guard textarea, .message-guard button {
+.register input, .register button {
   width: 90%;
   padding: 1rem;
   margin-top: 1rem;
@@ -63,19 +59,19 @@ footer {
   border-radius: 8px;
   font-size: 1rem;
 }
-.register input, .message-guard textarea {
+.register input {
   background-color: #2a2a2a;
   color: #fff;
 }
-.register button, .message-guard button {
+.register button {
   background-color: #ffd700;
   color: #000;
   cursor: pointer;
 }
-.register button:hover, .message-guard button:hover {
+.register button:hover {
   background-color: #ffcc00;
 }
-.register-message, .guard-response {
+.register-message {
   margin-top: 1rem;
   color: #ccc;
 }
